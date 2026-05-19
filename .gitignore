@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Outputs
+outputs/
+
+# Large models
+models/
+*.pt
+*.pth
+*.onnx
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
