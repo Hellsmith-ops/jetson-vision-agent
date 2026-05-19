@@ -26,6 +26,7 @@ docker run -it --rm \
   -u $(id -u):$(id -g) \
   --runtime=nvidia \
   --network host \
+  --device /dev/video0:/dev/video0 \
   -v ~/Documents/projects/jetson-vision-agent:/workspace \
   jetson-vision-agent
 ```
