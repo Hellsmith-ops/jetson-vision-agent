@@ -8,3 +8,5 @@ RUN python3 -m pip install --no-cache-dir \
     ultralytics
 
 WORKDIR /workspace
+
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser"]
