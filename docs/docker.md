@@ -24,6 +24,7 @@ docker build --network=host -t jetson-vision-agent . #rebuilding required after 
 ```bash
 docker run -it --rm \
   -u $(id -u):$(id -g) \
+  --group-add video \
   --runtime=nvidia \
   --network host \
   --device /dev/video0:/dev/video0 \
