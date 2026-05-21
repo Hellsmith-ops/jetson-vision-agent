@@ -37,7 +37,8 @@ This project explores computer vision, machine learning, and agentic AI workflow
 - [x] Build custom container
 - [x] Configure JupyterLab
 - [x] Set up VS Code Remote SSH
-- [ ] Camera integration
-- [ ] Object detection
+- [X] Camera integration
+- [X] Object detection
+- [ ] Live Feed Object Detection
 - [ ] LLM integration
 - [ ] Vision agent workflow
